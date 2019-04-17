@@ -15,7 +15,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Sources/Paseto/**/*', 'include/libsodium/*'
   
-  s.dependency 'Sodium'
+  s.dependency 'Sodium', '0.7.0-davidperrenoud1'
   
   # Add Clibsodium needed for AEAD nonce parameter
   s.ios.vendored_library    = 'include/libsodium/libsodium-paseto-ios.a'
