@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Paseto'
-  s.version          = '0.1.0'
+  s.version          = '0.1.0-davidperrenoud1'
   s.summary          = 'A short description of Paseto.'
 
   s.description      = <<-DESC
@@ -9,7 +9,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/David Perrenoud/Paseto'
   s.author           = { 'David Perrenoud' => 'david.perrenoud@ti8m.ch' }
-  s.source           = { :git => 'https://github.com/David Perrenoud/Paseto.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/davidperrenoud/swift-paseto.git' }
 
   s.ios.deployment_target = '8.0'
 
