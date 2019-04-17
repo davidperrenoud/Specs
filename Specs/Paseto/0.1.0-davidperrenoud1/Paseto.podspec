@@ -24,4 +24,5 @@ TODO: Add long description of the pod here.
   s.pod_target_xcconfig = {
   	'SWIFT_INCLUDE_PATHS' => '$(PODS_TARGET_SRCROOT)/include/libsodium',
   }
+  s.swift_version = '5.0'
 end
