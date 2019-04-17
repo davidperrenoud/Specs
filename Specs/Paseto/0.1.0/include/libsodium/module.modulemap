@@ -1,0 +1,4 @@
+module ClibsodiumPaseto {
+	header "sodium_lib.h"
+	export *
+}
